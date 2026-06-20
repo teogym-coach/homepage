@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teogym-coach.github.io/homepage/sitemap.xml
