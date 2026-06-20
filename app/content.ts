@@ -6,10 +6,15 @@ export const site = {
     ['메인', '/'], ['대표 소개', '/about/'], ['체형교정 PT', '/posture/'], ['다이어트 PT', '/diet/'], ['벌크업 PT', '/bulk-up/'], ['운동기록', '/records/'], ['회원 앱', '/app/'], ['가격', '/pricing/'], ['후기/사례', '/cases/'], ['오시는 길', '/location/'],
   ] as const,
   links: {
-    place: 'https://map.naver.com/',
-    reservation: 'https://booking.naver.com/',
-    blog: 'https://blog.naver.com/',
-    contact: '/location/',
+    phone: 'tel:050713737578',
+    reservation: 'https://m.booking.naver.com/booking/6/bizes/1369304',
+    talk: 'https://talk.naver.com/profile/w4nrgr3',
+    blog: 'https://m.blog.naver.com/teogym',
+    instagram: 'https://www.instagram.com/teogym_pt',
+    youtube: 'https://youtube.com/@gymteo',
+    directions: 'https://naver.me/GlRZUOv8',
+    place: 'https://naver.me/GlRZUOv8',
+    contact: 'https://talk.naver.com/profile/w4nrgr3',
   },
 };
 
