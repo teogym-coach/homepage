@@ -1,7 +1,18 @@
 export const site = {
   name: '테오짐 PT 청라점',
-  url: 'https://teogym-coach.github.io/homepage',
+  url: 'https://teogym.pages.dev',
   description: '청라에서 체형교정, 다이어트, 벌크업을 함께 관리하는 PT샵. 대표가 직접 수업하고 운동기록과 체중 변화를 관리합니다.',
+  telephone: '0507-1373-7578',
+  address: '인천 서구 청라커낼로 280 청라골든프라자 5층 505호',
+  region: '인천 청라',
+  businessType: 'PT샵 / 퍼스널트레이닝 / 헬스장',
+  keywords: ['테오짐 PT 청라점', '청라 PT', '청라 퍼스널트레이닝', '청라 헬스장', '청라 체형교정', '청라 다이어트 PT', '청라 벌크업 PT', '인천 청라 PT'],
+  openGraphImage: {
+    url: '/images/og-teogym.svg',
+    width: 1200,
+    height: 630,
+    alt: '테오짐 PT 청라점 - 청라 체형교정 다이어트 벌크업 PT',
+  },
   nav: [
     ['메인', '/'], ['대표 소개', '/about/'], ['체형교정 PT', '/posture/'], ['다이어트 PT', '/diet/'], ['벌크업 PT', '/bulk-up/'], ['운동기록', '/records/'], ['회원 앱', '/app/'], ['가격', '/pricing/'], ['후기/사례', '/cases/'], ['오시는 길', '/location/'],
   ] as const,
