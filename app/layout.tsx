@@ -7,6 +7,11 @@ import { makeMetadata } from './seo';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   ...makeMetadata(pageMeta.home),
+  verification: {
+    other: {
+      'msvalidate.01': 'E8A9918482E1CA0F06BB325DAB1C7D36',
+    },
+  },
 };
 
 const jsonLd = {
